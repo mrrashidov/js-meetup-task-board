@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "rootDirs": ["src"],
+    "target": "esnext",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["esnext"],
+    "types": ["node"],
+    "allowJs": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "include": ["/**/*.ts"],
+  "exclude": ["node_modules", "migrations"]
+}
